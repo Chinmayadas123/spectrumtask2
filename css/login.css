@@ -1,0 +1,293 @@
+#login{
+    background: -webkit-gradient(linear, left bottom, left top, from(#dfd7dc), to(#0e012c));
+    background: -webkit-linear-gradient(bottom, #e4e1e3 0%, #100230 100%);
+    background: -moz-linear-gradient(bottom, #969595 0%, #0a021d 100%);
+    background: -o-linear-gradient(bottom, #ffffff 0%, #04010c 100%);
+    background: linear-gradient(to top, #5996c9 0%, #011377 100%);
+    height: 100vh;
+}
+#login .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log-box{
+    background-image: url("../pic/regi.jpg");
+    background-size:cover ;
+    height: 95vh;
+    width: 70vw;
+    /* */
+    border-radius: 10px;
+}
+.log-box h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.log-box form{
+    float: right;
+    box-shadow: 10px 10px 100px #cccccc,
+                -10px -10px 100px #ffffff; 
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 80px;
+    text-align: center;
+    height: 85vh;
+    width: 40vw;
+}
+.form-box{
+    margin-top: 30px;
+}
+.form-btn{
+    margin-top: 70px;
+display: flex;
+justify-content: space-around;
+}
+.form-box label{
+    padding: 10px;
+    color:rgb(71, 66, 66);
+    font-size: 22px;
+}
+.form-box input{
+    background:none;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid rgba(112, 110, 110, 0.5);
+    float: right;
+    margin-right:40px;
+    padding: 10px;
+}
+.form-btn input{
+    background: linear-gradient(to right, #66aae2 0%, #a4a9c5 100%);
+    border:none;
+    outline: none;
+    box-shadow: 1px 1px 10px #000000,
+    -1px -1px 90px #f3f3f3; 
+    width: 200px;
+    height: 50px;
+    border-radius: 18px;
+    transition: all 0.4s ease-in-out;
+    color: blanchedalmond;
+    
+}
+.form-btn input:hover,.reg .btn:hover{
+    box-shadow: 1px 1px 5px #000000,
+    -1px -1px 50px #f3f3f3; 
+    background:rgba(154, 210, 218, 0.801);
+    color: black;
+
+}
+.form-regb{
+    margin-top: 20px;
+}
+.form-regb h3{
+    text-transform: capitalize;
+}
+.form-regb .btn,.inform-btn input{
+    background: linear-gradient(to right, #6ae266 0%, #57965f 100%);
+    border:none;
+    outline: none;
+    box-shadow: 1px 1px 10px #000000;
+    width: 200px;
+    height: 50px;
+    border-radius: 18px;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+.form-regb .btn a{
+    text-decoration: none;
+    color: black;
+}
+.form-regb .btn:hover,.inform-btn input:hover{
+    box-shadow: 1px 1px 5px #000000,
+    -1px -1px 50px #f3f3f3; 
+    background:rgba(154, 218, 170, 0.801);
+
+
+}
+#registerb{
+    background-image: url("../pic/regi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#register .container{
+    display: flex;
+    justify-content:flex-end;
+   
+    
+}
+#register .container .reg-box{
+    background-color: #e2e3e4c4;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+.heading{
+    background:linear-gradient(to right, #00f7ff 0%, #069eb3 100%);
+    height: 20%;
+    width: 50vw;
+}
+.heading h3{
+    color: rgb(1, 12, 61);
+    font-size: 38px;
+    text-align: center;
+}
+.inform-box{
+   margin-top: 30px;
+}
+.inform-box label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inform-box input,.inform-box select{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: none;
+    box-shadow: 0px 0px 3px black;
+    height: 40px;
+}
+.inform-btn{
+    margin-top: 10px;
+}
+.reg a{
+    text-decoration: none;
+    color: black;
+}
+.reg .btn{
+    background: linear-gradient(to right, #66cfe2 0%, #575b96 100%);
+    border:none;
+    outline: none;
+    box-shadow: 1px 1px 10px #000000;
+    width: 200px;
+    height: 50px;
+    border-radius: 18px;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.reg p{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+
+.users{
+    background: -webkit-gradient(linear, left bottom, left top, from(#dfd7dc), to(#0e012c));
+    background: -webkit-linear-gradient(bottom, #e4e1e3 0%, #100230 100%);
+    background: -moz-linear-gradient(bottom, #969595 0%, #0a021d 100%);
+    background: -o-linear-gradient(bottom, #ffffff 0%, #04010c 100%);
+    background: linear-gradient(to top, #5996c9 0%, #011377 100%);
+    height: 100vh;
+}
+.headw h2{
+    color: antiquewhite;
+    font-size: 40px;text-align: center;
+}
+.goback a{
+    text-align: center;
+    color: white;
+text-decoration: none;
+}
+.goback{
+    background: #ff660ee0;
+    height: 50px;
+    width: 20vw;
+    text-align: center;
+    padding-top:10px ;
+    margin-left: 430px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.udet{
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.user-tab{
+    width: 50vw;
+}
+@media(max-width:1025px){
+    .log-box form{
+        background: #c3becfde;
+        height: 50vh;
+        margin-top: 180px;
+    }
+}
+
+@media(max-width:769px){
+    .goback{
+        margin-left: 70px;
+        width: 40vw;
+        margin-top: 60px;
+
+    }
+    .udet{
+        display: flex;
+        justify-content: start;align-items: center;
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+    .headw h2{
+        color: antiquewhite;
+        font-size: 42px;
+        text-align: start;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+}
+@media(max-width:465px){
+    .log-box form{
+        background: #c3becfde;
+        height: 95vh;
+        width: 72vw;
+        position: absolute;
+        left: 15%;
+        margin-top: 0px;
+        box-shadow: 1px 1px 10px #000000;
+
+    }
+    .form-box input{
+        width: 90%;
+        float: right;
+        border-color: black;
+        margin-right:9px;
+        padding: 8px;
+    }
+    .goback{
+        margin-left: 70px;
+        width: 40vw;
+    }
+    .udet{
+        display: flex;
+        justify-content: start;align-items: center;
+    }
+    .headw h2{
+        color: antiquewhite;
+        font-size: 32px;
+        text-align: start;
+        width: 90vw;
+    }
+    .users{
+        height: 120vh;
+        width: 106vw;
+        
+    }
+}
